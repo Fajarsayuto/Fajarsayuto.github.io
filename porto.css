@@ -1,19 +1,133 @@
 .jumbotron {
-  padding-top: 6rem;
-  background-color: #b3c8cf;
+  padding-top: 8rem;
+  background-color: #ffffff;
 }
 
 #PROJECTS {
-  background-color: #f1eedc;
+  background-color: #32cd32;
+}
+.custom-shadow {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 #SKILL {
-  background-color: #b3c8cf;
+  background-color: white;
 }
-
+#CERTIFICATE {
+  background-color: #32cd32;
+}
+/* table {
+  padding-left: 5rem;
+} */
 #ABOUT {
-  background-color: #f1eedc;
+  background-color: white;
 }
 
 section {
   padding-top: 5rem;
+  margin: 0;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav d {
+  font-family: "Monoton", sans-serif;
+  font-style: normal;
+}
+
+.typing-container {
+  font-family: "Allerta Stencil", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+.typing-container::after {
+  content: "";
+  animation: blink-caret 0.75s step-end infinite;
+}
+h2 {
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.paper {
+  background: white;
+  width: 80%;
+  max-width: 1500px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 3rem;
+  position: relative;
+  z-index: 1;
+  margin: 20px auto;
+}
+
+.paper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("paper-texture.png") repeat;
+  opacity: 0.1;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.object {
+  background: white;
+  padding: 10px;
+  border-radius: 5rem;
+}
+
+.custom-table {
+  margin: 20px auto;
+  width: 80%;
+  border-collapse: collapse;
+  font-size: 18px;
+  text-align: left;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.custom-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.custom-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.custom-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.custom-table tbody tr:hover {
+  background-color: #f1f1f1;
 }

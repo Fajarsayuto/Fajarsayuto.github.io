@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>PORTFOLIO</title>
 
     <!-- Boostrap css -->
     <link
@@ -11,6 +11,27 @@
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
+    />
+
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+      rel="stylesheet"
     />
 
     <!-- My css -->
@@ -23,10 +44,10 @@
     <!-- Start Navbar -->
     <nav
       class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top"
-      style="background-color: #41c9e2"
+      style="background-color: #32cd32"
     >
       <div class="container">
-        <a class="navbar-brand" href="#">MY PORTOFOLIO</a>
+        <d class="navbar-brand" style="color: white; font-size: 2rem">MY PORTFOLIO</d>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,21 +57,72 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon" ></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div
+          class="collapse navbar-collapse text-center"
+          id="navbarNav"
+          style="padding-top: 0.5rem"
+        >
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#HOME">HOME</a>
+              <a href="#HOME">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="27" height="27">
+                  <path
+                    d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"
+                  ></path>
+                </svg>
+              </a>
+              <a class="nav-link" aria-current="page" href="#HOME" style="padding-top: 0">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#PROJECTS">PROJECTS</a>
+              <a href="#PROJECTS">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="27" height="27">
+                  <path
+                    d="M8.75 7a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5h-7.5ZM7 11.75a.75.75 0 0 1 .75-.75h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1-.75-.75ZM9.75 15a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"
+                  ></path>
+                  <path
+                    d="M2 3.75C2 2.784 2.784 2 3.75 2h16.5c.966 0 1.75.784 1.75 1.75v16.5A1.75 1.75 0 0 1 20.25 22H3.75A1.75 1.75 0 0 1 2 20.25Zm1.75-.25a.25.25 0 0 0-.25.25v16.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25Z"
+                  ></path>
+                </svg>
+              </a>
+              <a class="nav-link" href="#PROJECTS" style="padding-top: 0">PROJECTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#SKILL">SKILL</a>
+              <a href="#SKILL">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="27" height="27">
+                  <path
+                    d="M2.5 2.75a.75.75 0 0 0-1.5 0v18.5c0 .414.336.75.75.75H20a.75.75 0 0 0 0-1.5H2.5V2.75Z"
+                  ></path>
+                  <path
+                    d="M22.28 7.78a.75.75 0 0 0-1.06-1.06l-5.72 5.72-3.72-3.72a.75.75 0 0 0-1.06 0l-6 6a.75.75 0 1 0 1.06 1.06l5.47-5.47 3.72 3.72a.75.75 0 0 0 1.06 0l6.25-6.25Z"
+                  ></path>
+                </svg>
+              </a>
+              <a class="nav-link" href="#SKILL" style="padding-top: 0">SKILL</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#ABOUT">ABOUT</a>
+              <a href="#CERTIFICATE">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="27" height="27">
+                  <path
+                    d="M3 3a2 2 0 0 1 2-2h9.982a2 2 0 0 1 1.414.586l4.018 4.018A2 2 0 0 1 21 7.018V21a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm2-.5a.5.5 0 0 0-.5.5v18a.5.5 0 0 0 .5.5h14a.5.5 0 0 0 .5-.5V8.5h-4a2 2 0 0 1-2-2v-4Zm10 0v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 0-.146-.336l-4.018-4.018A.5.5 0 0 0 15 2.5Z"
+                  ></path>
+                </svg>
+              </a>
+              <a class="nav-link" href="#CERTIFICATE" style="padding-top: 0">CERTIFICATE</a>
+            </li>
+            <li class="nav-item">
+              <a href="#ABOUT">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="27" height="27">
+                  <path
+                    d="M13 7.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-3 3.75a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 .75.75v4.25h.75a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5h.75V12h-.75a.75.75 0 0 1-.75-.75Z"
+                  ></path>
+                  <path
+                    d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"
+                  ></path>
+                </svg>
+              </a>
+              <a class="nav-link" href="#ABOUT" style="padding-top: 0">ABOUT</a>
             </li>
           </ul>
         </div>
@@ -61,28 +133,65 @@
     <!-- Start Section 1 -->
     <section class="jumbotron">
       <div class="container">
-        <div class="row text-center">
-          <div class="col-md-4 mb-3" data-aos="fade-right">
+        <div class="row" style="align-items: center">
+          <div
+            class="col-md mb-3 text-center"
+          >
             <img
               src="foto/FOTO.png"
               alt="Muhamad Fajar Sayuto"
               width="200"
-              class="img-thumbnail rounded-circle"
-              style="margin-bottom: 1rem"
+              class="rounded-circle"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+              style="margin-bottom: 1rem; box-shadow: 0 0 20px rgba(0, 0, 0, 0.3)"
+
             />
-            <h1 style="font-size: x-large">Muhamad Fajar Sayuto</h1>
+            <h1 class="typing-container" id="typing"></h1>
           </div>
-          <div class="col-md" data-aos="fade-left">
-            <p align="justify" class="lead">
-              This is a simple hero unit, a simple jumbotron-style component for calling extra
-              attention to featured content or information.
-            </p>
+        </div>
+            <div class="row text-center">
+              <div class="col-md-6" data-aos="fade-left">
+                <div class="paper"
+                style="margin-left: auto; margin-right: auto"
+                data-aos="fade-up"
+                data-aos-duration="2000"><div class="object">
+                  I am an active 4th semester student majoring in Informatics Engineering at
+                  Nusanatar, PGRI Kediri University with high interest and enthusiasm in the field
+                  of Informatics. Previously, I had an internship at a vocational school for 6
+                  months in the fields of architecture, 3D modeling, and DED (Detail Engineering
+                  Design). Additionally, I have basic programming skills such as Python, HTML, and
+                  CSS, as well as understanding Microsoft Office applications such as Word, Excel,
+                  and PowerPoint.
+                </p>
+                </div>
+                <p class="lead">   
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-left">
+                <div class="paper"
+                style="margin-left: auto; margin-right: auto"
+                data-aos="fade-up"
+                data-aos-duration="2000"><div class="object">
+                  I am active in organizations, participating in several such as the management of
+                  the Student Association for the Informatics Engineering Study Program, the
+                  management of the Student General Election Supervisory Board, and Kode Nusantara.
+                  I also actively participate in webinars, workshops, and bootcamps in the field of
+                  Information Technology.
+                </p>
+                </div>
+                <p class="lead">   
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#f1eedc"
+          fill="#32cd32"
           fill-opacity="1"
           d="M0,192L48,165.3C96,139,192,85,288,90.7C384,96,480,160,576,170.7C672,181,768,139,864,149.3C960,160,1056,224,1152,229.3C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
@@ -95,61 +204,79 @@
       <div class="container">
         <div class="row text-center">
           <div class="col mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
-            <h2>PROJECTS</h2>
+            <h2 style="color: #ffffff">PROJECTS</h2>
           </div>
         </div>
         <div class="row">
           <div
             class="col-md-4 mb-5"
             data-aos="fade-up"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             data-aos-delay="500"
           >
-            <div class="card">
-              <img src="foto/A1.png" class="card-img-top" alt="a1" />
+            <div class="card custom-shadow">
+              <img src="foto/jaiton.png" class="card-img-top" alt="a1" />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Jaiton Multi Vendor Marketplace</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
+                  jaiton is a website-based multivendor marketplace application, where this
+                  application becomes a link between tailors and customers.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a
+                  href="#"
+                  class="btn btn-lg container-fluid"
+                  style="background: #32cd32; color: #ffffff"
+                  >View</a
+                >
               </div>
             </div>
           </div>
           <div
             class="col-md-4 mb-5"
             data-aos="fade-up"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             data-aos-delay="700"
           >
-            <div class="card">
+            <div class="card custom-shadow">
               <img src="foto/1.png" class="card-img-top" alt="a1" />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Qshier Financial Management Software</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
+                  is an application used for the cashier, where users can log in, make transactions
+                  for orders, products to add products to the database and reports in which there
+                  are sales reports every month.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a
+                  href="https://youtu.be/zNooL33JI2g?si=WTVqmYygiYHx0k8s"
+                  target="_blank"
+                  class="btn btn-lg container-fluid"
+                  style="background: #32cd32; color: #ffffff"
+                  >View</a
+                >
               </div>
             </div>
           </div>
           <div
             class="col-md-4 mb-5"
             data-aos="fade-up"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             data-aos-delay="900"
           >
-            <div class="card">
+            <div class="card custom-shadow">
               <img src="foto/2.png" class="card-img-top" alt="a1" />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Data Analyst to Detect Company Bankruptcy</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
+                  where users can find out the probability of a company going bankrupt just by
+                  entering its characteristics and the data will be calculated based on the dataset
+                  that has been stored in the excel file.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a
+                  href="#"
+                  class="btn btn-lg container-fluid"
+                  style="background: #32cd32; color: #ffffff"
+                  >View</a
+                >
               </div>
             </div>
           </div>
@@ -157,7 +284,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#b3c8cf"
+          fill="white"
           fill-opacity="1"
           d="M0,64L48,58.7C96,53,192,43,288,80C384,117,480,203,576,202.7C672,203,768,117,864,74.7C960,32,1056,32,1152,58.7C1248,85,1344,139,1392,165.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
@@ -177,18 +304,15 @@
           <div
             class="col-md-3 mb-5"
             data-aos="flip-right"
-            data-aos-duration="1500"
+            data-aos-duration="1000"
             data-aos-delay="500"
           >
-            <img src="foto/Python.png" class="img-fluid" alt="py" width="240" />
-            <!-- <div class="card">
-              <img src="foto/Python.png" class="card-img-top" alt="a1" />
-            </div> -->
+            <img src="foto/Python.png" class="img-fluid" alt="python" width="240" />
           </div>
           <div
             class="col-md-3 mb-5"
             data-aos="flip-right"
-            data-aos-duration="1500"
+            data-aos-duration="1000"
             data-aos-delay="500"
           >
             <img src="foto/html.png" class="img-fluid" alt="html" width="240" />
@@ -196,7 +320,7 @@
           <div
             class="col-md-3 mb-5"
             data-aos="flip-right"
-            data-aos-duration="1500"
+            data-aos-duration="1000"
             data-aos-delay="500"
           >
             <img src="foto/css.png" class="img-fluid" alt="css" />
@@ -204,7 +328,7 @@
           <div
             class="col-md-3 mb-5"
             data-aos="flip-right"
-            data-aos-duration="1500"
+            data-aos-duration="1000"
             data-aos-delay="500"
           >
             <img src="foto/js.png" class="img-fluid" alt="js" width="240" />
@@ -213,7 +337,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#f1eedc"
+          fill="#32cd32"
           fill-opacity="1"
           d="M0,160L48,170.7C96,181,192,203,288,181.3C384,160,480,96,576,85.3C672,75,768,117,864,128C960,139,1056,117,1152,122.7C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
@@ -221,11 +345,116 @@
     </section>
     <!-- End Section 3 -->
 
-    <!-- Start Section 4 -->
+    <!-- Start section 4-->
+    <section id="CERTIFICATE">
+      <div
+        class="table-responsive"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+      >
+        <h2 class="text-center mb-3" style="color: #ffffff">CERTIFICATE</h2>
+        <table
+          class="custom-table"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
+          <thead>
+            <tr>
+              <th>No.</th>
+              <th>Name</th>
+              <th>Date</th>
+              <th>Check</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="text-center">1</th>
+              <th>Certificate magang</th>
+              <th>August 2020-April 2021</th>
+              <th class="text-center">
+                <button class="btn btn-primary" onclick="viewFile('foto/1.png')">View</button>
+              </th>
+            </tr>
+            <tr>
+              <th class="text-center">2</th>
+              <th>BackEnd by Alterra Academy</th>
+              <th>October 24, 2022</th>
+              <th class="text-center">
+                <button class="btn btn-primary" onclick="viewFile('foto/backend.pdf')">View</button>
+              </th>
+            </tr>
+            <tr>
+              <th class="text-center">3</th>
+              <th>FrontEnd by Alterra Academy</th>
+              <th>October 25, 2022</th>
+              <th class="text-center">
+                <button class="btn btn-primary" onclick="viewFile('foto/frontend.pdf')">
+                  View
+                </button>
+              </th>
+            </tr>
+            <tr>
+              <th class="text-center">4</th>
+              <th>Quality Assurance by Alterra Academy</th>
+              <th>October 26, 2022</th>
+              <th class="text-center">
+                <button class="btn btn-primary" onclick="viewFile('foto/qa.pdf')">View</button>
+              </th>
+            </tr>
+            <tr>
+              <th class="text-center">5</th>
+              <th>Seminar Nasional Teknologi & Sains II</th>
+              <th>January 14, 2023</th>
+              <th class="text-center">
+                <button class="btn btn-primary" onclick="viewFile('foto/stains.pdf')">View</button>
+              </th>
+            </tr>
+            <tr>
+              <th class="text-center">6</th>
+              <th>Get to Know Society 5.0 Era</th>
+              <th>October 31, 2022</th>
+              <th class="text-center">
+                <button class="btn btn-primary" onclick="viewFile('foto/staditek.pdf')">
+                  View
+                </button>
+              </th>
+            </tr>
+            <tr>
+              <th class="text-center">7</th>
+              <th>Seminar Nasional Publick Speaking online Class</th>
+              <th>January 9, 2024</th>
+              <th class="text-center">
+                <button class="btn btn-primary" onclick="viewFile('foto/publik.pdf')">View</button>
+              </th>
+            </tr>
+            <tr>
+              <th class="text-center">8</th>
+              <th>Python Workshop</th>
+              <th>June 24 & July 1,8 2023</th>
+              <th class="text-center">
+                <button class="btn btn-primary" onclick="viewFile('foto/py.pdf')">View</button>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="white"
+          fill-opacity="1"
+          d="M0,160L48,170.7C96,181,192,203,288,181.3C384,160,480,96,576,85.3C672,75,768,117,864,128C960,139,1056,117,1152,122.7C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End Sectin 4 -->
+
+    <!-- Start Section 5 -->
     <section id="ABOUT">
       <div class="container">
         <div class="row text-center">
-          <div class="col mb-3">
+          <div class="col mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
             <h2>ABOUT ME</h2>
           </div>
         </div>
@@ -233,7 +462,7 @@
           <div
             class="col md-4 mb-3"
             data-aos="fade-up"
-            data-aos-duration="1500"
+            data-aos-duration="1000"
             data-aos-delay="500"
           >
             <a href="https://wa.me/6282334389614" target="_blank" class="text-black fw-bold"
@@ -245,8 +474,8 @@
           <div
             class="col md-4 mb-3"
             data-aos="fade-up"
-            data-aos-duration="2000"
-            data-aos-delay="1000"
+            data-aos-duration="1000"
+            data-aos-delay="600"
           >
             <a
               href="https://www.instagram.com/fajarsayuto/"
@@ -260,8 +489,8 @@
           <div
             class="col md-4 mb-3"
             data-aos="fade-up"
-            data-aos-duration="2500"
-            data-aos-delay="1500"
+            data-aos-duration="1000"
+            data-aos-delay="700"
           >
             <a
               href="https://www.facebook.com/profile.php?id=100042506364230"
@@ -276,8 +505,8 @@
           <div
             class="col md-4 mb-3"
             data-aos="fade-up"
-            data-aos-duration="2000"
-            data-aos-delay="2000"
+            data-aos-duration="1000"
+            data-aos-delay="900"
           >
             <a href="mailto:muhamadfajarsayuto@gmail.com" target="_blank" class="text-black fw-bold"
               ><img
@@ -291,16 +520,16 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#b3c8cf"
+          fill="#32cd32"
           fill-opacity="1"
           d="M0,64L48,90.7C96,117,192,171,288,192C384,213,480,203,576,181.3C672,160,768,128,864,128C960,128,1056,160,1152,176C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
     </section>
-    <!-- End Section 4 -->
+    <!-- End Section 5 -->
 
     <!-- Start Footer -->
-    <footer class="text-center text-white" style="background-color: #b3c8cf; padding-bottom: 10px">
+    <footer class="text-center text-white" style="background-color: #32cd32; padding-bottom: 10px">
       <i>Create By Muhamad Fajar Sayuto</i>
     </footer>
     <!-- End Footer -->
@@ -314,6 +543,40 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+      function viewFile(url) {
+        window.open(url, "_blank");
+      }
     </script>
+
+<script>
+  const text = "Muhamad Fajar Sayuto";
+  let index = 0;
+  let isAdding = true; // Flag to determine if we're adding or removing text
+  const typingElement = document.getElementById("typing");
+
+  function type() {
+      if (isAdding) {
+          if (index < text.length) {
+              typingElement.innerHTML += text.charAt(index);
+              index++;
+              setTimeout(type, 100); // Adjust typing speed here
+          } else {
+              isAdding = false;
+              setTimeout(type, 1500); // Pause before starting to delete
+          }
+      } else {
+          if (index > 0) {
+              typingElement.innerHTML = text.substring(0, index - 1);
+              index--;
+              setTimeout(type, 100); // Adjust deleting speed here
+          } else {
+              isAdding = true;
+              setTimeout(type, 1500); // Pause before starting to type again
+          }
+      }
+  }
+
+  type();
+</script>
   </body>
 </html>
